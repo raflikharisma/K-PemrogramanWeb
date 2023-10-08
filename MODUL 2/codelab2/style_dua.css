@@ -1,0 +1,11 @@
+body {
+    background-color: #40a0ee ;
+}
+.container{
+    width: 400px;
+    margin-top: 10%;
+}
+
+.row {
+    display: block;
+}

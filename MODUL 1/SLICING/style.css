@@ -1,0 +1,35 @@
+
+.container {
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.logo-navbar {
+    width: 65px;
+}
+
+.container.position-absolute.ms-5 {
+    top: 250px;
+}
+
+.logo-ilab {
+    padding-right: 60px;
+}
+
+.text-muted {
+    padding: 20px 40px;
+}
+.navbar-nav button {
+    width: 130px;
+    border-radius: 10px;
+}
+
+.btn.btn-primary.me-2 {
+    background-color: #fff;
+}
+
+.nav-item.mb-2 img {
+    width: 25px;
+    padding-right: 5px;
+}
+

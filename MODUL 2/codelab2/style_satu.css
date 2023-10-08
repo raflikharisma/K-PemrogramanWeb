@@ -1,0 +1,14 @@
+.container {
+  display: flex inline-block;
+  margin-top: 20%;
+  background-color: aqua;
+  width: 500px;
+}
+.row {
+  padding: 10px 10px;
+}
+
+.col {
+  width: auto;
+}
+

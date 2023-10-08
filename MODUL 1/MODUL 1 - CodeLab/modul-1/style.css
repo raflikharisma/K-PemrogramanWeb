@@ -1,0 +1,101 @@
+.container {
+  background-image: url("Untitled design.png");
+  background-size: cover;
+  border: 1px solid black;
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  padding: 10px;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .nama, .nim, .date ,.address-label, .submit{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    
+}
+
+.container .nama label {
+    padding-right: 20px;
+}
+
+.container .nim label {
+    padding-right: 27px;
+}
+
+.container .date label {
+    padding-right: 8px;
+}
+
+.container .address-label label {
+    padding-right: 13px;
+}
+
+.container .btn-submit {
+    margin-left: 70px;
+}
+
+.container-table {
+    background-color: gold;
+    width: 50%;
+    position: absolute;
+    left: 26%;
+    margin-right: -50%;
+    top: 80%
+}
+
+.container-table .div-table table, th, td{
+    border: 1px solid black
+}
+
+.container-table .div-table table {
+    width: 100%;
+}
+
+.container-table .div-table table th {
+    height: 60px;
+}
+
+.container-table .div-table table td {
+    height: 50px;
+    padding-left: 20px 
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        background-color: lightblue;
+    }
+
+    .container-table{
+        width: 20em;
+    }
+
+    .container-table .div-table table {
+        width: 20em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
