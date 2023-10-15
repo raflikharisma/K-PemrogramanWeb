@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="todolist.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="">
+        <div class="content">
+          <h1>Today's Planner</h1>
+          <input class="input-box" type="text" />
+          <select id="dropdown" class="todo-filter" name="filter" id="">
+            <option value="all">In progress</option>
+            <option value="incomplete">Not Started</option>
+            <option value="completed">Completed</option>
+          </select>
+          <button class="todo-button"><i id="icon" class="fa-solid fa-plus"></i></button>
+        </div>
+      </form>
+
+      <div class="todo-container">
+        <ul class="todo-list"></ul>
+      </div>
+    </div>
+
+    <script src="todolist.js"></script>
+  </body>
+</html>
