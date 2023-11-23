@@ -3,7 +3,11 @@
   background-size: cover;
   border: 1px solid black;
   width: 350px;
+<<<<<<< HEAD
   heigh: 350px;
+=======
+  height: 350px;
+>>>>>>> 33ea3a018aede1e7273b492fc4bcabb477da4ffe
   position: absolute;
   padding: 10px;
   top: 50%;
