@@ -27,6 +27,4 @@ function generator($n){
     }
 }
 
-
-
 generator(15);

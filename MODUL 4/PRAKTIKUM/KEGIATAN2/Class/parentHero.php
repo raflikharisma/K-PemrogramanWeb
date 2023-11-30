@@ -12,7 +12,8 @@ abstract class Hero {
         $this->gender = $gender;
         
     }
-
+    
     abstract public function intro() : string;
+    abstract public function allData();
     
 }
